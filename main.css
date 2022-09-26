@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+background-color: violet;
+}    
+.container{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 42.5vw;
+
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+article{
+    margin: 50px 25px 0 25px;
+
+}
+button{
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #00bfff;
+}
+.para{
+    color: red;
+    font-size: 1.5rem;
+}
